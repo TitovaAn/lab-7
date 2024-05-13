@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB</title>
+    <style>
+    body {
+  
+  font-family: Areal, sans-serif;
+  }
+  .foto{
+width: 400px;
+height: 500px;
+margin-bottom: 7px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container {
+display: flex;
+justify-content: space-between;
+width: 800px;
+height: 1100px;
+background-color: #DCDCDC;
+}
+.left-side {
+display: flex;
+flex-direction: column;
+}
+.right-side {
+display: flex;
+flex-direction: column;
+}
+.rectangle {
+width: 380px;
+height: 350px;
+background-color: #C0C0C0;
+margin-bottom: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+p {
+  
+  color: #5B0E45;
+}
+h3 {
+
+
+  font-size: 28px;  
+}  
+
+
+</style>
+</head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./lib/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Прямоугольник с вложенными прямоугольниками</title>
+</head>
+<body>
+<div class="container">
+<div class="left-side">
+<div class="foto"><span><img width="250" height="230" src="https://sun9-18.userapi.com/impg/NyaVO2Jdg-ffvZ5HUshU8eUDa9gHLRO0alIdsw/ddGTiGx8mCI.jpg?size=1620x2160&quality=95&sign=471d624c0b865d50c085202aa2956052&type=album"></span></div>
+<div class="rectangle"><span><h3 style="color: #A0007D">Контакты
+<div style="width: 160px; height: 12px; display: inline-block;"></div>
+</h3>
+<p>+79969319735</p>
+<p>riskakamiko@gmail.com</p>
+</div>
+<div class="rectangle"><span><h3 style="color: #A0007D">Языки</h3>
+<p>Английский 5/10
+<div style="width: 300px; height: 17px; display: inline-block"></div></li></p></span></div>
+<div class="rectangle"><span><h3 style="color: #A0007D";>Направления, которые
+<div> наиболее интересны</h3>
+<p>Дизайн  Искусство
+<div style="width: 300px; height: 22px; display: inline-block"></div></li></p></span></div>
+<div class="rectangle"><span><h3 style="color: #A0007D">Желаемая профессия<div style="width: 10px; height: 12px; display: inline-block"></h3>
+<p>Дизайнер/архитектор
+</span></div>
+<div class="rectangle"><span><h3 style="color: #A0007D">Интересы <div style="width: 160px; height: 12px; display: inline-block"></div></h3>
+<p>Рисование
+</span></div>
+</div>
+<div class="right-side">
+<div class="rectangle"><span><ul><h3 style="color: #A0007D">О себе
+<div style="width: 170px; height: 12px; display: inline-block"></div>
+</h3>
+<p>Окончила художественное и танцевальное направление в  школе искусств. Люблю слушать музыку во время работы. Боюсь ответственности. 
+</p></span></div>
+<div class="rectangle"><span><ul><h3 style="color: #A0007D">Образование
+</h3>
+<p>Ярославский государственный технический университет 09.03.04 “Программная инженерия” ЦПИ-11а</p></span></div>
+<div class="rectangle"><span><h3 style="color: #A0007D">Навыки 
+<div style="width: 180px; height: 12px; display: inline-block"></div></h3>
+<p>
+Общие:
+<p>
+Адаптация к новым условиям
+</span></div>
+<div class="rectangle"><span><h3 style="color: #A0007D">Языки
+  <div> программирования</h3>
+<p>Python
+<div style="width: 300px; height: 10px; display: inline-block"></div>
+</p></span></div>
+</div>
+</div>
+</body>
+</html>
